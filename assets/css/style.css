@@ -1,0 +1,107 @@
+html{
+	box-sizing: border-box;
+}
+* , *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/swirl.png");
+	margin: 0;
+	
+	}
+header {
+		margin: 0;
+		background-color: #cccccc;
+		height: 120px;
+		border-color: #cccccc;
+		overflow: auto;
+		position: relative;
+		}
+.mini-container {
+	/*height: auto;
+	width: 480px;
+	float: right;
+	margin-top: 0;*/
+	}
+aside img {
+	height: 60px;
+	width: 60px;
+	padding-right: 10px;
+}	
+#nav {
+	
+	position: absolute;
+    top: 50px;
+    right: 150px;
+	}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+#main {
+	width: 650px;
+	background-color:#ffffff;
+	float: left;
+    width: 50%;
+    border: 3px solid #dddddd;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+	}
+  a {
+		text-decoration: none;
+	}
+	hr {
+		height: 3px;
+		background-color: gray;
+		
+	}
+#sidebar{
+	text-align: center;
+	display: block;
+    margin-bottom: 30px;
+    border: 3px solid #dddddd;
+	padding: 20px;
+	width: 270px;
+	background-color: #ffffff;
+	float: right;
+	top: 150px;
+	right: 200px;
+	margin-right: 200px;
+	margin-top: 100px;
+	}
+#logo {
+	background-color: #76b84b;
+	position: absolute;
+	text-align: center;
+    top: 40px;
+    left: 100px;
+    width: 480px;
+    height: 80px;
+    border: 3px;
+    padding: 5px;
+    
+	}
+input[type="text"] {
+    width: 500px;
+}
+	#footer {
+		background-color: #666666;
+		height: 100px;
+		display: block;
+		position: relative;
+		font-size: 12px;
+		margin: auto;
+	    border: 3px;
+	    padding-top: 25px;
+	    text-align: center;
+	    border-top: 10px solid green;
+	    clear: both;
+
+		}
+	#profile {
+    	border-radius: 50%;
+    	padding: 10px;
+		}
